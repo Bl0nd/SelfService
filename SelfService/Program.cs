@@ -21,4 +21,4 @@ if (incluiSuco == true)
 //calculo
 totalPagar = (peso - taraDoPrato) * valorKilo + qtdSuco * valorSuco;
 
-Console.WriteLine("Valor Total: " + totalPagar);
+Console.WriteLine("Valor Total: R$ " + totalPagar.ToString("F2");
